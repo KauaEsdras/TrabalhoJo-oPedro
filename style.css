@@ -17,6 +17,10 @@ header {
     background-color: #f1f6ce;
 }
 
+.cardtimes {
+    width: 100%;
+}
+
 .titulo {
     color: #0d0f36;
 }
@@ -37,14 +41,10 @@ p {
     font-size: 2vw;
 }
 
-#cardtimes {
-    align-items: center;
-    text-align: center;
-}
-
 section {
     display: flex;
     justify-content: center;
+    margin: 0;
 }
 
 .escudo {
@@ -52,15 +52,15 @@ section {
 }
 
 .card {
-    max-width: 600px;
-    border-radius: 20px;
-    padding: 3%;
-    margin: 5vw 10vh 5vw 10vw;
+    width: 75vw;
+    margin: 2vw 2vh 2vw 2vw;
     background-color: #294380;
     display: grid;
-    grid-template-columns: 30% 60%;
-    align-items: center;
+    grid-template-columns: 30% 70%;
+    justify-content: space-around;
     justify-items: center;
+    align-items: center;
+    border-radius: 20px;
 }
 
 .card:hover {
@@ -76,6 +76,7 @@ section {
 
 a {
     text-decoration: none;
+    display: flex;
 }
 
 .cardResultado {
