@@ -21,6 +21,27 @@ header {
     color: #0d0f36;
 }
 
+h1 {
+    font-size: 4vw;
+}
+
+h2 {
+    font-size: 3vw;
+}
+
+h3 {
+    font-size: 2vw;
+}
+
+p {
+    font-size: 1vw;
+}
+
+#cardtimes {
+    align-items: center;
+    text-align: center;
+}
+
 section {
     display: flex;
     justify-content: center;
